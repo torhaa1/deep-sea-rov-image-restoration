@@ -67,8 +67,8 @@ These images were processed with a relatively mild/safe setting to be suitable f
 
 
 > **Note**: If GitHub isn't rendering the images, they can be seen or downloaded from the folders:
-> - [test-images](https://github.com/t-haakens/deep-sea-rov-image-restoration/tree/main/2019/HD/test-images)
-> - [result-images](https://github.com/t-haakens/deep-sea-rov-image-restoration/tree/main/2019/HD/result-images)
+> - [2019/HD/test-images](https://github.com/t-haakens/deep-sea-rov-image-restoration/tree/main/2019/HD/test-images)
+> - [2019/HD/result-images](https://github.com/t-haakens/deep-sea-rov-image-restoration/tree/main/2019/HD/result-images)
 
 
 ---
