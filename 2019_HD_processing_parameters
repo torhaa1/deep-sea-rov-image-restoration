@@ -1,9 +1,9 @@
 # 2019 Processing parameters
-## 2019 had high quality HD videos
+## 2019 had high quality HD videos (1920x1080p).
 
 
 # Used function from rov_preprocessing.py with adjustable parameters
-def full_preprocessing3_7(image_rgb, enable_udcp=False, enable_wb=True, enable_clahe1=True,
+def full_preprocessing3_7_2019hd(image_rgb, enable_udcp=False, enable_wb=True, enable_clahe1=True,
                        enable_clahe2=True, enable_canny=True, enable_unsharp=True):
     if enable_udcp:
         image_rgb = UDCP(image_rgb, omega=0.50, t0=0.7, r=15, eps=1e-3, radius=25)
