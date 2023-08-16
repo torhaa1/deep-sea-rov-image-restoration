@@ -65,10 +65,12 @@ These images were processed with a relatively mild/safe setting to be suitable f
   <img src="https://github.com/t-haakens/deep-sea-rov-image-restoration/blob/main/2019/HD/result-images/chimneys_columns_processed.png" width="48%" alt="Segmented Image" />
 </p>
 
-
 > **Note**: If GitHub isn't rendering the images, they can be seen or downloaded from the folders:
 > - [2019/HD/test-images](https://github.com/t-haakens/deep-sea-rov-image-restoration/tree/main/2019/HD/test-images)
 > - [2019/HD/result-images](https://github.com/t-haakens/deep-sea-rov-image-restoration/tree/main/2019/HD/result-images)
+
+A demo video showing a side-by-side comparison of the original and processed videos can be downloaded here:
+[ImageRestoration_Comparison_of_Original_and_Processed](https://drive.google.com/file/d/1QvRMG4zKXWs5xGXra5jUs8M6EtK4EkM-/view?usp=sharing)
 
 
 ---
