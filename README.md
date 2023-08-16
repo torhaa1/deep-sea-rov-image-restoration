@@ -1,6 +1,6 @@
 # Deep-Sea ROV Image Restoration
 
-This repository contains code to restore images and videos taken by deep-sea ROVs (Remotely Operated Vehicles) at depths without natural light. Specifically, it focuses on images and videos from the Norwegian Petroleum Directorate (NPD) and University of Bergen (UiB) research cruises at the mid-ocean ridges of Mohn's Ridge and Knipovich Ridge.   
+This repository contains code to restore images and videos taken by deep-sea ROVs (Remotely Operated Vehicles) at depths without natural light (most below a depth of 2000m). Specifically, it focuses on images and videos from the Norwegian Petroleum Directorate (NPD) and University of Bergen (UiB) research cruises at the mid-ocean ridges of Mohn's Ridge and Knipovich Ridge.   
 The restoration process aims to provide a better starting point for both visual human interpretation and machine object detection. For videos, each frame is processed individually.
 
 ## Dataset
