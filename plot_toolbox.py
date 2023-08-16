@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Utilities: Functions/Methods frequently used
-
+Mostly plotting
 """
 # import packages
 import math
@@ -13,23 +13,6 @@ from PIL import Image
 import cv2
 
 from restoration_toolbox import *
-
-# #%% SETUP DIRECTORY
-# WORKING_DIR = "abc_home"
-# IMAGE_FOLDER = "test-images/"
-# OUTPUT_FOLDER = "result-images/"
-
-# #%% READ IMAGES
-
-# # PIL package
-# image_path = "image_path"  ### SET IMAGE HERE ###
-# image = Image.open(image_path)
-# image_array = np.array(image)
-
-# # Open CV package
-# image_path = "image_path"   #### SET NEW IMAGE HERE ###
-# image_bgr = cv2.imread(image_path) # BGR by open-cv default
-# image_rgb = cv2.cvtColor(image_bgr, cv2.COLOR_BGR2RGB)  # Convert from BGR to RGB
 
 #######################################################################
 # NORMAL PLOTS
