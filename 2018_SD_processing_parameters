@@ -1,0 +1,18 @@
+# Used function from rov_preprocessing.py with adjustable parameters
+def full_preprocessing3_7(image_rgb, enable_udcp=True, enable_wb=True, enable_clahe1=True,
+                       enable_clahe2=True, enable_canny=True, enable_unsharp=True):
+    if enable_udcp:
+        image_rgb = UDCP(image_rgb, omega=0.50, t0=0.7, r=15, eps=1e-3, radius=25)
+    if enable_wb:
+        image_rgb = white_balance_blend(image_rgb, gamma=0.95, blend_factor=0.25)
+    if enable_clahe1:
+        image_rgb = preprocess_clahe(image_rgb, clipLimit=0.2, tileGridSize=(8,8))
+    if enable_clahe2:
+        image_rgb = color_balance_and_saturation_enhancement(image_rgb, saturation_factor=1.0, clip_limit=0.2, tile_grid_size=(8,8))
+    if enable_canny:
+        image_rgb = edge_enhancement_canny(image_rgb, edge_intensity=0.00005)
+    if enable_unsharp:
+        image_rgb = unsharp_mask(image_rgb, sigma=1.0, strength=1.0)
+    
+    return image_rgb.astype('uint8')
+
