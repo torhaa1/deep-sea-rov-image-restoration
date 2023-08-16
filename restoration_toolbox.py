@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-ROV Preprocessing functions
+ROV Image restoration functions
 
 Steps:
 1) Noise reduction - smoothing
 2) UDCP(Underwater Dark Channel Prior) - underwater color restoration
-3) White balancing
+3) White balancing - Gray world assumption
 4) Contrast enhancement - CLAHE on LAB (doesn't change color balance and hue)
 5) Color correction - CLAHE on RGB (obs; can alter color balance and hue), or
 6) Edge enhancement - Sobel/Canny
